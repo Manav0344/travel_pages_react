@@ -3,13 +3,24 @@ import "../componets/styles/packages.css"
 import img1 from "../assets/img/p8.jpg"
 import img2 from "../assets/img/p7.jpg"
 import img3 from "../assets/img/nap1.jpg"
+import Background from '../assets/img/Background.png';
 
 
 const Packages = () => {
   return (
 
     <>
-       <div className='packages'>
+       <div className="packages" style={{
+    backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${Background})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    padding: '80px 8%',
+    color:'#fff',
+    textAlign: 'center',
+    height: '600px',
+    marginBottom: '100px',
+  }}>
 
   <div className="package-text">
     <h2>Packages</h2>
