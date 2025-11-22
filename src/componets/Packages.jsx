@@ -65,7 +65,7 @@ const Packages = () => {
       <div className="p-header">
         <h2>Popular Packages</h2>
         <h3>Choose Your Favourite packages</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam labore excepturi suscipit nulla, optio cum doloribus assumenda enim dignissimos, in quisquam doloremque tenetur deserunt? Facilis earum iusto ut dolor asperiores!</p>
+        <p className="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam labore excepturi suscipit nulla, optio cum doloribus assumenda enim dignissimos, in quisquam doloremque tenetur deserunt? Facilis earum iusto ut dolor asperiores!</p>
       </div>
 
 

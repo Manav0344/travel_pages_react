@@ -100,3 +100,117 @@
     transition: transform 0.3s, box-shadow 0.3s;
     padding: 15px;
 }
+
+
+
+
+
+
+@media (max-width: 992px) {
+
+  .packages {
+    padding: 60px 5%;
+    height: auto;
+  }
+
+  .filters {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .search-input,
+  .filter-select {
+    width: 45%;
+  }
+
+  .popular-packages {
+    padding: 10px 8%;
+  }
+
+  .main-card-container {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .card {
+    width: 45%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+  .packages {
+    padding: 50px 5%;
+    height: auto;
+  }
+
+  .package-text h2 {
+    font-size: 28px;
+  }
+
+  .package-text h3 {
+    font-size: 20px;
+  }
+
+  .filters {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-input,
+  .filter-select {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .popular-packages h2 {
+    font-size: 28px;
+  }
+
+  .popular-packages p {
+    font-size: 16px;
+  }
+
+  .main-card-container {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .card-image img {
+    height: 250px;
+  }
+}
+
+/* Small Phones */
+@media (max-width: 480px) {
+
+  .package-text h2 {
+    font-size: 24px;
+  }
+
+  .package-text h3 {
+    font-size: 18px;
+  }
+
+  .search-input,
+  .filter-select {
+    width: 100%;
+  }
+
+  .card {
+    padding: 10px;
+  }
+
+  .card-image img {
+    height: 200px;
+  }
+
+  .w {
+    font-size: 14px;
+  }
+}
