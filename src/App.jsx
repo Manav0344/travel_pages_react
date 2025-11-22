@@ -9,7 +9,7 @@ import Guide from "./componets/Guide";
 import Gallery from "./componets/Gallery";
 import Contact from "./componets/Contact";
 
-// Layout with Header and Footer
+
 const Layout = () => {
   return (
     <div>
